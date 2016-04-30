@@ -50,14 +50,14 @@ You can read these docs [online](http://www.cocos2d-x.org/docs).
 
 ## How to run/test these docs
 * __cd <where you cloned this repo>__
-* run __build.sh --all__
+* run __./build.sh --all__
 * run __mkdocs serve__
 
 Any changes made while __mkdocs serve__ is running are automatically rebuilt.
 
 ## How to build for deployment
 * __cd <where you cloned this repo>__
-* run __build.sh --all__
+* run __./build.sh --all__
 
 Content is built in __docs__ and deployed to __site__. This script also builds the
 ePub and PDF versions as well as deploys out to our staging server and http://www.cocos2d-x.org/docs
@@ -66,7 +66,7 @@ ePub and PDF versions as well as deploys out to our staging server and http://ww
 The legacy API-Refs are now downloaded and deployed as needed. No need for us to store these
 in GitHub as they don't change.
 * __cd <where you cloned this repo>__
-* run __build.sh --legacyapi__
+* run __./build.sh --legacyapi__
 
 ## When contributing
 * make sure to break lines at 80 columns.
